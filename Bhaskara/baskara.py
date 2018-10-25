@@ -13,7 +13,7 @@ disc = b*b - 4*a*c
 if disc < 0:
   print("It does not exist solution!!!")
   exit
-# validate quadratic equation
+# validate quadratic equation ax²+bx+c 
 if a == 0:
   print("It not necessary Bhaskara for this equation")
   print("x: ",(float)-c/b)
@@ -24,6 +24,6 @@ x2 = (-b - square_root(disc))/(2*a)
 
 #print(square_root(27))
 
-print "x1: %.2f"%x1)
-print("x2: %.2f"%x2)
+print "x1: %.2f"%x1
+print "x2: %.2f"%x2
 
